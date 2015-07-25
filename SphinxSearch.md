@@ -19,3 +19,6 @@ More information on delta indexing
 
 See also: [this forum
 thread](http://tt-rss.org/forum/viewtopic.php?f=16&t=2078)
+
+[pgsql.sphinx.conf](https://tt-rss.org/gitlab/fox/tt-rss/uploads/ce2498594557b5b2bbac5a74df0d4664/pgsql.sphinx.conf)
+[mysql.sphinx.conf](https://tt-rss.org/gitlab/fox/tt-rss/uploads/b636375f6f0d5abf6fb4f071b3d7634c/mysql.sphinx.conf)
