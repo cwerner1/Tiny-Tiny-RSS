@@ -32,7 +32,7 @@ Features
     -   [flexible article filtering](ContentFilters),
     -   [JSON-based API](ApiReference),
     -   and much more…
--   Official [Android client](http://tt-rss.org/redmine/projects/tt-rss-android/wiki)
+-   Official [Android client](https://tt-rss.org/gitlab/fox/tt-rss-android/wikis/home)
 
 Get in touch
 ============
