@@ -74,3 +74,13 @@ There’s no warranty. If it breaks you get to keep both parts.
 
 Please read \[\[InstallationNotes|installation guide\]\] and
 \[\[UpdatingFeeds\]\] before installing.
+
+  [Dealspotr]: http://dealspotr.com/
+  [GNU GPLv3]: http://www.gnu.org/copyleft/gpl.html
+  [Android client]: http://tt-rss.org/redmine/projects/tt-rss-android/wiki
+  [community forums]: http://tt-rss.org/forum
+  [LAMP]: http://en.wikipedia.org/wiki/LAMP_(software_bundle)
+  [PostgreSQL]: http://www.postgresql.org
+  [MySQL]: http://www.mysql.com
+  [rolling release]: http://tt-rss.org/forum/viewtopic.php?f=10&t=3262
+  [git master]: /git
