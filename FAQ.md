@@ -40,3 +40,96 @@ tune it a bit.
 
 See also: [this
 thread](http://tt-rss.org/forum/viewtopic.php?f=1&t=2053&start=45#p11015)
+
+### I need to get the number of unread articles in the simplest way.
+
+([Forum thread](http://tt-rss.org/forum/viewtopic.php?p=415))
+
+<code>SELF\_URL\_PATH/backend.php?op=getUnread&login=LOGIN</code>
+
+No password required. In single user mode, use “admin” for login.
+
+### I read this feed which goes through FeedBurner and it behaves strangely.
+
+FeedBurner seems to discriminate against tt-rss for some reason.
+
+See [this thread]()
+http://tt-rss.org/forum/viewtopic.php?f=1&t=418&hilit=feedburner for
+more information.
+
+N.B. Real classy behavior there, Google. Thanks a lot!
+
+### I have used the update daemon before, but switched away from it. However, the UI keeps nagging me about the daemon not running or not updating feeds or whatever.
+
+Find and delete daemon lock file in <code>LOCK\_DIRECTORY</code>.
+Usually, it’s <code>lock/update\_daemon.lock</code>. You can also remove
+<code>update\_daemon.stamp</code>.
+
+### I have questions about article purging / I don’t think purging works.
+
+In short, you may and will see articles with date older than the cutoff
+for purging. Here’s why:
+
+1\. Starred articles are not purged.\
+2. Purging is done based on article import date internal to tt-rss which
+could be different from the date specified in the original feed (e.g.
+article has date 01-01-1970, but it was imported today).\
+3. When tt-rss sees articles still exist in the feed it bumps the import
+date because otherwise the articles will get purged and reimported
+periodically causing annoyingly reappearing duplicates. This is mostly
+relevant for rarely updated feeds.\
+4. Purging is performed when the feed is updated hence disabled updates
+= no purging.
+
+Please see these forum threads for more information:
+
+-   http://tt-rss.org/forum/viewtopic.php?f=1&t=792
+-   http://tt-rss.org/forum/viewtopic.php?f=9&t=560&p=2649&hilit=delete\#p2649
+
+You can see article import date if you mouse over displayed date in
+tt-rss web UI.
+
+Related question:
+
+### I like to manually archive or delete articles and I get duplicates. Why?
+
+Because the articles are still in the feed and get imported again.
+
+http://tt-rss.org/forum/viewtopic.php?f=1&t=2020&p=10635\#p10635
+
+### Loading stops at 50%, browser debug console shows “error loading root children”.
+
+Try deleting everything from <code>ttrss\_counters\_cache</code> and
+<code>ttrss\_cat\_counters\_cache</code> tables.
+
+E.g. <code>DELETE FROM ttrss\_counters\_cache</code>
+
+### Using Firefox, “OPML Import window” always visible in Preferences
+
+Apparently it’s some addon or a browser setting problem, using clean
+profile helps.
+
+See also: \#649
+
+### Embedded video doesn’t work properly in articles
+
+What you’re looking for is [videoframes
+plugin](http://tt-rss.org/redmine/projects/tt-rss/wiki/Plugins#Enable-embedded-videos-in-feeds-videoframes)
+
+### I have HTTP authentication enabled and get “Your access level is insufficient to run this script” error on login
+
+The problem is that if you have auth\_remote enabled in config.php
+tt-rss tries to automatically log you in as the user specified by the
+server using HTTP authentication, which may not have administrative
+privileges. You will need to either temporarily disable auth\_remote
+(replace it with auth\_internal in config.php), temporarily disable HTTP
+authentication, or give yourself administrative permissions using the
+SQL client:
+
+    update ttrss_users set access_level = 10 where login = 'you';
+
+### I’m having performance problems, why is tt-rss so slow?
+
+Most likely you don’t have enough hardware for your requested amount of
+feeds. Switch up to a faster VDS tier or use something else.
+
