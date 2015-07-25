@@ -48,20 +48,17 @@ applying to articles imported after the filter had been created.
 
 Several actions are available:
 
-1\. Delete article - do not import article from the feed, does not
-actually delete anything from the database\
-2. Mark as read - imports article automatically marked as read\
-3. Set starred - sets article starred automatically on import\
-4. Assign tags - assigns custom tags on import\
-5. Publish article - sets article published automatically on import\
+1. Delete article - do not import article from the feed, does not
+actually delete anything from the database
+2. Mark as read - imports article automatically marked as read
+3. Set starred - sets article starred automatically on import
+4. Assign tags - assigns custom tags on import
+5. Publish article - sets article published automatically on import
 6. [Modify score](Scoring) - modifies article overall score based on
-the parameter, a signed integer number. Final article score is
-calculated after all filters had been applied and is a sum of all
-matched scoring actions. I.e. if 3 actions matched the article: ~~5, +5,
-+10~~ the overall score will be 10.\
-7. Assign label - assigns specified label to the article on import\
-8. Stop / Do nothing - stops further filter processing for this article,
-no following filters will be checked nor rules applied.
+the parameter, a signed integer number. Final article score is calculated after all filters had been applied and is a sum of all
+matched scoring actions. I.e. if 3 actions matched the article: -5, +5, +10 the overall score will be 10.
+7. Assign label - assigns specified label to the article on import
+8. Stop / Do nothing - stops further filter processing for this article, no following filters will be checked nor rules applied.
 
 After all matching filters had been computed for the article, it is
 either imported with modifications as specified by the rules, or dropped
