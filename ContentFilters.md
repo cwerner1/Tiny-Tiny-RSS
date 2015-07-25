@@ -54,7 +54,7 @@ actually delete anything from the database\
 3. Set starred - sets article starred automatically on import\
 4. Assign tags - assigns custom tags on import\
 5. Publish article - sets article published automatically on import\
-6. [[Scoring|Modify score]] - modifies article overall score based on
+6. [Modify score](Scoring) - modifies article overall score based on
 the parameter, a signed integer number. Final article score is
 calculated after all filters had been applied and is a sum of all
 matched scoring actions. I.e. if 3 actions matched the article: ~~5, +5,
@@ -115,5 +115,3 @@ filters are considered when article is being imported and all actions
 executed in sequence. Inverse matching reverts matching result, e.g.
 filter matching XYZZY in title with inverse flag will match all
 articles, except those containing string XYZZY in title.
-
-See also: [[Scoring]]
