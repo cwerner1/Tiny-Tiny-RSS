@@ -11,4 +11,4 @@ notation. So “c m” means you press “c” and “m” sequentially.
 Since version:1.7.0 you can modify hotkey maps using plugins, see
 <code>plugins/swap\_jk</code> for an example.
 
-See also: [[InterfaceTips]]
+See also: [InterfaceTips](InterfaceTips)
