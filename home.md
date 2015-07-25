@@ -35,8 +35,7 @@ Features
 Get in touch
 ============
 
-Join [community forums](http://tt-rss.org/forum) if you have any
-questions, comments or bug reports.
+Join [community forums](http://tt-rss.org/forum) if you have any questions, comments or bug reports.
 
 Requirements
 ============
