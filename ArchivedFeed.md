@@ -12,7 +12,7 @@ absolutely sure, you don’t need to manually archive anything.
 
 In general, consider manual un/archiving of articles an advanced
 function. The point of this feed is to give you access to externally
-shared data ([[ShareAnything]]) which has no feed by definition or your
+shared data ([ShareAnything](ShareAnything)) which has no feed by definition or your
 starred articles if originating feed no longer exists in tt-rss
 database.
 
@@ -27,5 +27,5 @@ Archived article feed works as such:
     originating feed is still available (e.g. subscribed).
 -   Archived articles are not subject to the usual automatic expiration
     process.
--   Articles created using [[ShareAnything]] are placed into Archived
+-   Articles created using [ShareAnything](ShareAnything) are placed into Archived
     feed.
