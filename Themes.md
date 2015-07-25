@@ -35,36 +35,34 @@ Themes list
 
 ### Clean GReader Theme
 
-![](>{width:200px}https://raw.github.com/naeramarth7/clean-greader/master/img/preview.png)\
-A theme built from scratch, independent of default css. Inspired by the
-Google Reader it has a white/greyish look.\
-**Forum**\
-http://tt-rss.org/forum/viewtopic.php?f=22&t=2247
+![](>{width:200px}https://raw.github.com/naeramarth7/clean-greader/master/img/preview.png)
 
-**Github**\
-https://github.com/naeramarth7/clean-greader
+A theme built from scratch, independent of default css. Inspired by the
+Google Reader it has a white/greyish look.
+
+**Forum** http://tt-rss.org/forum/viewtopic.php?f=22&t=2247
+
+**Github** https://github.com/naeramarth7/clean-greader
 
 ### Feedly Theme
 
-![](>{width:200px}https://raw.github.com/levito/tt-rss-feedly-theme/master/feedly-screenshots/feedly-expandable.png)\
-A theme built from scratch, independent of default css. Emulates the
-greyish look of Feedly.\
-**Forum**\
-http://tt-rss.org/forum/viewtopic.php?f=22&t=2065
+![](>{width:200px}https://raw.github.com/levito/tt-rss-feedly-theme/master/feedly-screenshots/feedly-expandable.png)
 
-**Github**\
-https://github.com/levito/tt-rss-feedly-theme
+A theme built from scratch, independent of default css. Emulates the greyish look of Feedly.
+
+**Forum** http://tt-rss.org/forum/viewtopic.php?f=22&t=2065
+
+**Github** https://github.com/levito/tt-rss-feedly-theme
 
 ### Reeder Theme
 
-![](>{width:200px}https://github.com/tschinz/tt-rss_reeder_theme/blob/master/reeder_screenshot/combined_mode_1.png?raw=true)\
-Theme emulates the paper/brownish look of the Reeder App from IOS.\
-**Forum**\
-http://tt-rss.org/forum/viewtopic.php?f=22&t=2105
+![](>{width:200px}https://github.com/tschinz/tt-rss_reeder_theme/blob/master/reeder_screenshot/combined_mode_1.png?raw=true)
 
-**Github**\
-tt-rss \>1.11\
-https://github.com/tschinz/tt-rss\_reeder\_theme
+Theme emulates the paper/brownish look of the Reeder App from IOS. 
 
-tt-rss \<1.11 (old version)\
-https://github.com/tschinz/tt-rss\_reeder\_theme/tree/legacy
+**Forum** http://tt-rss.org/forum/viewtopic.php?f=22&t=2105
+
+**Github** 
+
+* tt-rss \>1.11 https://github.com/tschinz/tt-rss\_reeder\_theme
+* tt-rss \<1.11 (old version) https://github.com/tschinz/tt-rss\_reeder\_theme/tree/legacy
