@@ -68,7 +68,7 @@ faster.
 Download
 ========
 
-Tiny Tiny RSS uses a [rolling release](http://tt-rss.org/forum/viewtopic.php?f=10&t=3262) model based on [git master](/git) branch which is considered stable.
+Tiny Tiny RSS uses a [rolling release](http://tt-rss.org/forum/viewtopic.php?f=10&t=3262) model based on git master branch which is considered stable.
 
 There’s no warranty. If it breaks you get to keep both parts.
 
