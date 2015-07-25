@@ -11,91 +11,93 @@ There are two kinds of plugins: user and system. User plugins are
 enabled in Preferences ~~\> Plugins. System plugins require adding them
 to a <code>config.php</code> directive <code>PLUGINS</code> which is a
 comma-separated list of enabled system plugins, i.e.
-\
+
 \<pre\>define(’PLUGINS’, ’updater, digest, auth\_remote, auth\_internal,
 googlereaderimport’);\</pre\>
-\
+
 Installation of plugins is as simple as copying a folder into the
 ’plugins’ folder of your tt-rss and then activating (via a checkbox) it
 in the settings panel.
-\
+
 If you add a user plugin to <code>PLUGINS</code> this will force enable
 it for all users.
-\
+
 Themes and plugins are also available on the
 [forum](http://tt-rss.org/forum/viewforum.php?f=22).
-\
+
 If you are interested in making plugins, see [[MakingPlugins]].
-\
+
 Since version version:1.7.5, the plugin architecture of tt-rss is pretty
 stable. But for one or other reason, some plugins may profit if someone
 agrees to maintain them. Plugin authors who agree to do that could post
 a link to their github account or simply let us know that they are
 available to be contacted in the forums or per email, then we’ll add
 that information here.
-\
+
 If multiple search plugins are loaded, only the first one is used.
-\
+
 Several more plugins are available in the [contrib
 repository](https://github.com/gothfox/Tiny-Tiny-RSS-Contrib/) including
 example plugins to get you started making your own.
-\
+
 p{color:red}. Please note that we’re not responsible for third party
 plugins. Use at your own risk.
-\
-h2. Social plugins
-\
-h3. Share to Pinterest, Owncloud, Pocket, Twitter, Identica, Google+
-\
+
+Social plugins
+--------------
+
+### Share to Pinterest, Owncloud, Pocket, Twitter, Identica, Google+
+
 Previously bundled in trunk.
-\
+
 http://tt-rss.org/forum/viewtopic.php?f=22&t=1548&p=7081
-\
-h3. Share to Evernote, Kindle and Pinboard
-\
+
+### Share to Evernote, Kindle and Pinboard
+
 http://tt-rss.org/forum/viewtopic.php?f=22&t=1422
-\
-h3. Share to Facebook
-\
+
+### Share to Facebook
+
 http://tt-rss.org/forum/viewtopic.php?f=22&t=1486
-\
-h3. Share to Flattr
-\
+
+### Share to Flattr
+
 https://github.com/nhoening/ttrss-flattr
-\
-h3. Share to Instapaper, Facebook
-\
+
+### Share to Instapaper, Facebook
+
 http://tt-rss.org/forum/viewtopic.php?f=22&t=1401
-\
-h3. Share to Hootsuite
-\
+
+### Share to Hootsuite
+
 http://tt-rss.org/forum/viewtopic.php?f=22&t=1436
-\
-h3. Share to Tumblr
-\
+
+### Share to Tumblr
+
 http://tt-rss.org/forum/viewtopic.php?f=22&t=1448
-\
-h3. Share to SemanticScuttle
-\
+
+### Share to SemanticScuttle
+
 http://tt-rss.org/forum/viewtopic.php?f=22&t=1347
-\
-h3. Share to Readability
-\
+
+### Share to Readability
+
 http://tt-rss.org/forum/viewtopic.php?f=22&t=1600
-\
-h3. Send to Kindle with one click
-\
+
+### Send to Kindle with one click
+
 http://tt-rss.org/forum/viewtopic.php?f=22&t=2839
-\
-h2. Keyboard shortcut plugins
-\
-h3. Example plugin to base other shortcut plugins on
-\
+
+Keyboard shortcut plugins
+-------------------------
+
+### Example plugin to base other shortcut plugins on
+
 http://tt-rss.org/forum/viewtopic.php?f=22&t=1382
-\
+
 h2. Feed data manipulation plugins
-\
-h3. Enable embedded videos in feeds~~ videoframes
+
+### Enable embedded videos in feeds~~ videoframes
 
 https://github.com/tribut/ttrss-videoframes
 
