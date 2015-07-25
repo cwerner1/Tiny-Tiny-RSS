@@ -12,8 +12,7 @@ enabled in Preferences ~~\> Plugins. System plugins require adding them
 to a <code>config.php</code> directive <code>PLUGINS</code> which is a
 comma-separated list of enabled system plugins, i.e.
 
-<pre>define(’PLUGINS’, ’updater, digest, auth\_remote, auth\_internal,
-googlereaderimport’);\</pre>
+<code>define(’PLUGINS’, ’updater, digest, auth\_remote, auth\_internal, googlereaderimport’);\</code>
 
 Installation of plugins is as simple as copying a folder into the
 ’plugins’ folder of your tt-rss and then activating (via a checkbox) it
