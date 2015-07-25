@@ -72,5 +72,3 @@ Note that only main tt-rss UI supports this, if you have digest or
 mobile open or use an API client (for example, android application),
 feeds are not going to be updated. You absolutely have to have tt-rss
 open in a browser tab on a running computer somewhere.
-
-See also: [[UpdatingFeedsObsolete]]
