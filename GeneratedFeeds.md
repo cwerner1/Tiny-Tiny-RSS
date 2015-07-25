@@ -90,7 +90,7 @@ Order values:
 -   date\_reverse - reverse sort by batch date
 -   feed\_dates - sort by feed-provided article dates
 
-See also: [[PublishArticles]], [this forum
+See also: [PublishArticles](PublishArticles), [this forum
 thread](http://tt-rss.org/forum/viewtopic.php?f=1&t=446&p=3015#p3015)
 and [this other forum
 thread](http://tt-rss.org/forum/viewtopic.php?f=8&t=354)
