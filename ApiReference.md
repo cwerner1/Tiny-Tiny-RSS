@@ -29,7 +29,7 @@ Testing API calls (using curl)
 
 Most of the calls (except login, logout, isLoggedIn) require valid login
 session or will return this error object:
-<code>{[error]("NOT_LOGGED_IN"}</code>)
+<code>{"error":"NOT_LOGGED_IN"}</code>
 
 Output format
 -------------
@@ -38,7 +38,7 @@ Output format
 
 All API methods return JSON data like this:
 
-<code>{[seq](0,"status":0,"content":{"version":"1.4.3.1"}}</code>)
+<code>{"seq":0,"status":0,"content":{"version":"1.4.3.1"}}</code>
 
 -   seq (integer) is the sequence number supplied by client (&seq=131)
 -   status (integer) indicates whether request has been completed
@@ -61,7 +61,7 @@ Return an abstracted integer API version level, increased with each API
 functionality change. This is the proper way to detect host API
 functionality, instead of using getVersion.
 
-<code>{[level](1}</code>)
+<code>{"level":1}</code>
 
 Whether tt-rss returns error for this method (e.g. version:1.5.7 and
 below) client should assume API level 0.
@@ -71,7 +71,7 @@ below) client should assume API level 0.
 Returns tt-rss version. As of, version:1.5.8 it is not recommended to
 use this to detect API functionality, please use getApiLevel instead.
 
-<code>{[version]("1.4.0"}</code>)
+<code>{"version":"1.4.0"}</code>
 
 ### login
 
@@ -82,7 +82,7 @@ Parameters:
 
 Returns client session ID.
 
-<code>{[session\_id]("xxx"}</code>)
+<code>{"session\_id":"xxx"}</code>
 
 It can also return several error objects:
 
@@ -101,22 +101,20 @@ getApiLevel after login.
 
 ### logout
 
-Closes your login session. Returns either status-message
-<code>{[status]("OK"}</code>) or an error (e.g.
-<code>{[error]("NOT_LOGGED_IN"}</code>))
+Closes your login session. Returns either status-message <code>{"status":"OK"}</code> or an error (e.g. <code>{"error":"NOT_LOGGED_IN"}</code>)
 
 ### isLoggedIn
 
 Returns a status message with boolean value showing whether your client
 (e.g. specific session ID) is currently logged in.
 
-<code>{[status](false}</code>)
+<code>{"status":false}</code>
 
 ### getUnread
 
 Returns an integer value of currently unread articles.
 
-<code>{[unread]("992"}</code>)
+<code>{"unread":"992"}</code>
 
 ### getCounters
 
@@ -261,7 +259,7 @@ following:
 
 Since version:1.5.0 returns a status message:
 
-<code>{[status]("OK","updated":1}</code>)
+<code>{"status":"OK","updated":1}</code>
 
 “Updated” is number of articles updated by the query.
 
