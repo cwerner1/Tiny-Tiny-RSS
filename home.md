@@ -24,7 +24,6 @@ Features
     -   multiple ways to share stuff: via RSS feeds, using plugins to
         various social sites, sharing by URL, etc,
     -   [sharing arbitrary content through tt-rss](ShareAnything),
-    -   [mobile devices](MobileVersion),
     -   internationalization,
     -   [Plugins](Plugins) and [themes](Themes),
     -   detecting and filtering duplicate articles,
