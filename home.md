@@ -17,21 +17,20 @@ Features
     moment
 -   Supports
     -   [feed aggregation / syndication](GeneratedFeeds),
-    -   [[KeyboardShortcuts|keyboard shortcuts]],
+    -   [keyboard shortcuts](KeyboardShortcuts),
     -   OPML import/export,
     -   multiple ways to share stuff: via RSS feeds, using plugins to
         various social sites, sharing by URL, etc,
-    -   [[ShareAnything|sharing arbitrary content through tt-rss]],
-    -   [[MobileVersion|mobile devices]],
+    -   [sharing arbitrary content through tt-rss](ShareAnything),
+    -   [mobile devices](MobileVersion),
     -   internationalization,
-    -   [[Plugins|various plugins]] and [[Themes|themes]],
+    -   [Plugins](Plugins) and [themes](Themes),
     -   detecting and filtering duplicate articles,
     -   podcasts,
-    -   [[ContentFilters|flexible article filtering]],
-    -   [[JsonApiReference|JSON-based API]],
+    -   [flexible article filtering](ContentFilters),
+    -   [JSON-based API](ApiReference),
     -   and much more…
--   Official [Android
-    client](http://tt-rss.org/redmine/projects/tt-rss-android/wiki)
+-   Official [Android client](http://tt-rss.org/redmine/projects/tt-rss-android/wiki)
 
 Get in touch
 ============
@@ -42,15 +41,13 @@ questions, comments or bug reports.
 Requirements
 ============
 
-You need a [[CompatibleBrowsers|compatible web browser]] on the client
-side.
+You will need a modern web browser on the client side.
 
 Server-side
 -----------
 
 You will need a dedicated web hosting account (i.e. a VDS) or access to
-a physical server running generic modern
-[LAMP](http://en.wikipedia.org/wiki/LAMP_(software_bundle)) stack or
+a physical server running generic modern [LAMP](http://en.wikipedia.org/wiki/LAMP_(software_bundle)) stack or
 compatible.
 
 Everything else, including, but not limited to, shared hosting accounts,
@@ -60,8 +57,7 @@ in your particular case but if you have problems you are on your own.
 
 Additionally, tt-rss requires:
 
--   PHP version **5.4** or newer ([[PhpCompatibilityNotes|detailed PHP
-    requirements]])
+-   PHP version **5.4** or newer ([detailed PHP requirements](PhpCompatibilityNotes))
 -   [PostgreSQL](http://www.postgresql.org) (**9.1** or newer) or
     [MySQL](http://www.mysql.com) (**InnoDB is required**, MyISAM will
     not work).
@@ -72,11 +68,8 @@ faster.
 Download
 ========
 
-Tiny Tiny RSS uses a [rolling
-release](http://tt-rss.org/forum/viewtopic.php?f=10&t=3262) model based
-on [git master](/git) branch which is considered stable.
+Tiny Tiny RSS uses a [rolling release](http://tt-rss.org/forum/viewtopic.php?f=10&t=3262) model based on [git master](/git) branch which is considered stable.
 
 There’s no warranty. If it breaks you get to keep both parts.
 
-Please read [[InstallationNotes|installation guide]] and
-[[UpdatingFeeds]] before installing.
+Please read the [installation guide](InstallationNotes) and [UpdatingFeeds](UpdatingFeeds) before installing.
