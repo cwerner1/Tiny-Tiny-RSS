@@ -276,7 +276,7 @@ Since version:1.4.3 also returns article attachments.
 
 Returns tt-rss configuration parameters:
 
-<code>{[icons\_dir]("icons","icons_url":"icons","daemon_is_running":true,"num_feeds":71}</code>)
+<code>{"icons_dir":"icons","icons_url":"icons","daemon_is_running":true,"num_feeds":71}</code>
 
 -   icons\_dir - path to icons on the server filesystem
 -   icons\_url - path to icons when requesting them over http
@@ -294,7 +294,7 @@ aborted by the HTTP server.
 
 Returns status-message if the operation has been completed.
 
-<code>{[status]("OK"}</code>)
+<code>{"status":"OK"}</code>
 
 ### getPref
 
@@ -302,7 +302,7 @@ Returns preference value of specified key.
 
 -   pref\_name (string) - preference key to return value of
 
-<code>{[value](true}</code>)
+<code>{"value":true}</code>
 
 ### catchupFeed
 
@@ -317,7 +317,7 @@ Parameters:
 
 Returns status-message if the operation has been completed.
 
-<code>{[status]("OK"}</code>)
+<code>{"status":"OK"}</code>
 
 ### getCounters
 
@@ -344,14 +344,15 @@ with output\_mode.
 
 Returns list of configured labels, as an array of label objects:
 
-<code>{[id](2,"caption":"Debian","fg_color":"#e14a00","bg_color":"#ffffff","checked":false},</code>)
+<code>{"id":2,"caption":"Debian","fg\_color":"#e14a00","bg\_color":"#ffffff","checked":false},</code>
 
 Before version:1.7.5
 
 Returned id is an internal database id of the label, you can convert it
 to the valid feed id like this:
 
-<code>feed\_id = ~~11~~ label\_id</code>
+<code>feed\_id = -11 - label\_id</code>
+
 
 After:
 
