@@ -2,7 +2,7 @@ Tiny Tiny RSS is an open source web-based news feed (RSS/Atom) reader
 and aggregator, designed to allow you to read news from any location,
 while feeling as close to a real desktop application as possible.
 
-![](/images/1.12/thumb/1.jpg):/images/1.12/1.png
+<a target="_blank" href="http://tt-rss.org/images/1.12/1.png"><img src="http://tt-rss.org/images/1.12/thumb/1.jpg"></a>
 
 Sponsored by [Dealspotr](http://dealspotr.com/)
 
