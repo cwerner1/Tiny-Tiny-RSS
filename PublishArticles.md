@@ -17,5 +17,3 @@ generate another URL if necessary on **My Feeds** tab in preferences.
 
 You can also use filter action “Publish article” to publish articles
 automatically.
-
-See also: [[GeneratedFeeds]]
