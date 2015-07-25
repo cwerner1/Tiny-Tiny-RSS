@@ -9,7 +9,7 @@ feed icon** at the right of the currently loaded feed title:
 
 Or in version:1.12 next to the feed list near the top:
 
-![](/redmine/attachments/download/254/112_feed_icon.png)
+![](/images/redmine/112_feed_icon.png)
 
 You can access labels, categories, tags, search results as RSS feeds.
 Since version:1.5.0 you can also limit the articles which go into
