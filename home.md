@@ -16,7 +16,7 @@ Features
     of depending on a cloud service which may be discontinued at any
     moment
 -   Supports
-    -   [[GeneratedFeeds|feed aggregation / syndication]],
+    -   [feed aggregation / syndication](GeneratedFeeds),
     -   [[KeyboardShortcuts|keyboard shortcuts]],
     -   OPML import/export,
     -   multiple ways to share stuff: via RSS feeds, using plugins to
