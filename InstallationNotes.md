@@ -22,7 +22,7 @@ installation.
 
 1. Clone tt-rss repository using Git
 
-<code>git clone https://github.com/gothfox/Tiny-Tiny-RSS.git tt-rss</code>
+<pre>git clone https://github.com/gothfox/Tiny-Tiny-RSS.git tt-rss</pre>
 
 Alternatively, you can clone the repository on your local machine and
 upload files to the server using FTP or any other means available to
