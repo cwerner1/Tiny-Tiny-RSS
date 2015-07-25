@@ -41,6 +41,12 @@ tune it a bit.
 See also: [this
 thread](http://tt-rss.org/forum/viewtopic.php?f=1&t=2053&start=45#p11015)
 
+### I need a URL I can call to subscribe to feed to integrate with some third party browser extension/application.
+
+<code>SELF\_URL\_PATH/public.php?op=subscribe&feed\_url=%s﻿</code>
+
+SELF\_URL\_PATH = http://your.ttrss.server/tt-rss/
+
 ### I need to get the number of unread articles in the simplest way.
 
 ([Forum thread](http://tt-rss.org/forum/viewtopic.php?p=415))
