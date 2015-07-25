@@ -3,7 +3,7 @@ Publishing articles
 
 Since version:1.2.14 TT-RSS has support for publishing selected articles
 in a special RSS feed, accessible to anyone who knows the special
-randomly-generated URL. This works independently of [[GeneratedFeeds]].
+randomly-generated URL. This works independently of [GeneratedFeeds](GeneratedFeeds).
 
 You can mark articles as published by clicking [standard feed
 icon](http://feedicons.com/) near headline title:
