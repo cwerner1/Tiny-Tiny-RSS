@@ -12,7 +12,7 @@ Although we do have a [special
 subforum](http://tt-rss.org/forum/viewforum.php?f=24) for people with
 shared hosting related questions. You can try posting there.
 
-### I’m using lastpass and stuff is broken {#im-using-lastpass-and-stuff-is-broken style="color:red"}
+### I’m using lastpass and stuff is broken
 
 Lastpass arbitrarily breaks tt-rss forms preventing various stuff like
 saving settings from functioning properly. Why? Ask lastpass developers.
