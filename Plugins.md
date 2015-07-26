@@ -39,8 +39,7 @@ Several more plugins are available in the [contrib
 repository](https://github.com/gothfox/Tiny-Tiny-RSS-Contrib/) including
 example plugins to get you started making your own.
 
-p{color:red}. Please note that we’re not responsible for third party
-plugins. Use at your own risk.
+**Please note that we’re not responsible for third party plugins. Use at your own risk.**
 
 Social plugins
 --------------
