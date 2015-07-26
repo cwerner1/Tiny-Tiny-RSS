@@ -19,8 +19,7 @@ please see [this
 thread](http://tt-rss.org/forum/viewtopic.php?f=1&t=1859&p=9279#p9279)
 for more
 
-Example plugins are available in the [contrib
-repository](https://github.com/gothfox/Tiny-Tiny-RSS-Contrib/).
+Example plugins are available in the [attic repository](/git/tt-rss-attic.git).
 
 Javascript hooks are available since version:1.7.9, see here:
 http://tt-rss.org/forum/viewtopic.php?f=10&t=1924&p=9796\#p9714
