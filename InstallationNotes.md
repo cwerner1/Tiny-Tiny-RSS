@@ -28,9 +28,6 @@ Alternatively, you can clone the repository on your local machine and
 upload files to the server using FTP or any other means available to
 you.
 
-If you don’t want to deal with repositories, Github has a “Download ZIP”
-button (not recommended).
-
 2. Verify that you can open http://your.site.com/tt-rss/install/
 
 3. Proceed with the installation using the easy installer. It will ask
