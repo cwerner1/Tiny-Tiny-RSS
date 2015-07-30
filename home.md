@@ -4,11 +4,11 @@ while feeling as close to a real desktop application as possible.
 
 <a target="_blank" href="http://tt-rss.org/images/1.12/1.png">(Screenshot)</a>
 
-#### [READ THE FAQ BEFORE ASKING QUESTIONS](FAQ)
-
 Sponsored by [Dealspotr](http://dealspotr.com/)
 
 <a href="https://tt-rss.org/donate.html"><img src="https://tt-rss.org/images/btn_donate_SM.gif"></a>
+
+**[READ THE FAQ BEFORE ASKING QUESTIONS](FAQ)**
 
 Features
 ========
