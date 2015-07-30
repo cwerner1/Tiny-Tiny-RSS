@@ -87,9 +87,9 @@ Returns client session ID.
 It can also return several error objects:
 
 -   If API is disabled for this user:
-    <code>{[error]("API_DISABLED"}</code>)
+    <code>error: "API_DISABLED"</code>
 -   If specified username and password are incorrect:
-    <code>{[error]("LOGIN_ERROR"}</code>)
+    <code>error: "LOGIN_ERROR"</code>
 
 In case it isn’t immediately obvious, you have to login and get a
 session ID even if you are using single user mode. You can omit user and
@@ -120,8 +120,7 @@ Returns an integer value of currently unread articles.
 
 Returns JSON-encoded counter information. Requires version:1.5.0.
 
--   output\_mode (string, default: flc) - what kind of information to
-    return (f - feeds, l - labels, c - categories, t - tags)
+* output\_mode (string, default: flc) - what kind of information to return (f - feeds, l - labels, c - categories, t - tags)
 
 ### getFeeds
 
@@ -145,14 +144,14 @@ instead.
 
 Special category IDs are as follows:
 
--   0 - Uncategorized
--   ~~1~~ Special (e.g. Starred, Published, Archived, etc.)
--   ~~2~~ Labels
+*  0 Uncategorized
+* -1 Special (e.g. Starred, Published, Archived, etc.)
+* -2 Labels
 
 Added in version:1.5.0:
 
--   ~~3~~ All feeds, excluding virtual feeds (e.g. Labels and such)
--   ~~4~~ All feeds, including virtual feeds
+-   -3 All feeds, excluding virtual feeds (e.g. Labels and such)
+-   -4 All feeds, including virtual feeds
 
 Known bug: Prior to version:1.5.0 passing null or 0 cat\_id to this
 method returns full list of feeds instead of Uncategorized feeds only.
@@ -224,12 +223,12 @@ This parameters might change in the future (supported since **API level
 
 Special feed IDs are as follows:
 
--   ~~1~~ starred
--   ~~2~~ published
--   ~~3~~ fresh
--   ~~4~~ all articles
+-   -1 starred
+-   -2 published
+-   -3 fresh
+-   -4 all articles
 -   0 - archived
--   IDs \< ~~10~~ labels
+-   IDs \< -10 labels
 
 Sort order values:
 
@@ -351,7 +350,7 @@ Before version:1.7.5
 Returned id is an internal database id of the label, you can convert it
 to the valid feed id like this:
 
-<code>feed\_id = -11 - label\_id</code>
+<code>feed\_id = \-11 - label\_id</code>
 
 
 After:
@@ -360,8 +359,7 @@ No conversion is necessary.
 
 Parameters:
 
-\* article\_id (int) - set “checked” to true if specified article id has
-returned label.
+* article\_id (int) - set “checked” to true if specified article id has returned label.
 
 ### setArticleLabel (since API level 1)
 
@@ -385,9 +383,9 @@ Creates an article with specified data in the Published feed.
 
 Parameters:
 
-\* title - Article title (string)\
- \* url - Article URL (string)\
- \* content - Article content (string)
+* title - Article title (string)
+* url - Article URL (string)
+* content - Article content (string)
 
 ### subscribeToFeed (API level 5 - version:1.7.6)
 
@@ -396,10 +394,9 @@ subscribe\_to\_feed() in functions.php for details.
 
 Parameters:
 
-\* feed\_url - Feed URL (string)\
- \* category\_id - Category id to place feed into (defaults to 0,
-Uncategorized) (int)\
- \* login, password - Self explanatory (string)
+* feed\_url - Feed URL (string)
+* category\_id - Category id to place feed into (defaults to 0, Uncategorized) (int)
+* login, password - Self explanatory (string)
 
 ### unsubscribeFeed (API level 5 - version:1.7.6)
 
@@ -407,11 +404,11 @@ Unsubscribes specified feed.
 
 Parameters:
 
-\* feed\_id - Feed id to unsubscribe from
+* feed\_id - Feed id to unsubscribe from
 
 ### getFeedTree (API level 5 - version:1.7.6)
 
--   include\_empty (bool) - include empty categories
+* include\_empty (bool) - include empty categories
 
 Returns full tree of categories and feeds.
 
