@@ -20,7 +20,7 @@ saving settings from functioning properly. Why? Ask lastpass developers.
 See also:
 http://tt-rss.org/forum/viewtopic.php?f=1&t=2060&start=15\#p17969
 
-### I’m experiencing random failures / UI glitches ({[error]({"code":7}}), {[error]({"code":6}}))
+### I’m experiencing random failures / UI glitches (error codes 6 & 7)
 
 Almost every time those are caused by malfunctioning and/or badly
 written browser extensions. Always try opening tt-rss without browser
