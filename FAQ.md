@@ -76,14 +76,14 @@ Usually, it’s <code>lock/update\_daemon.lock</code>. You can also remove
 In short, you may and will see articles with date older than the cutoff
 for purging. Here’s why:
 
-1\. Starred articles are not purged.\
+1. Starred articles are not purged.
 2. Purging is done based on article import date internal to tt-rss which
 could be different from the date specified in the original feed (e.g.
-article has date 01-01-1970, but it was imported today).\
+article has date 01-01-1970, but it was imported today).
 3. When tt-rss sees articles still exist in the feed it bumps the import
 date because otherwise the articles will get purged and reimported
 periodically causing annoyingly reappearing duplicates. This is mostly
-relevant for rarely updated feeds.\
+relevant for rarely updated feeds.
 4. Purging is performed when the feed is updated hence disabled updates
 = no purging.
 
