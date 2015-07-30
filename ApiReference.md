@@ -246,8 +246,7 @@ Parameters:
     operate on
 -   mode (integer) - type of operation to perform (0 - set to false, 1 -
     set to true, 2 - toggle)
--   field (integer) - field to operate on (0 - starred, 1 - published, 2
-    - unread, 3 - article note **since api level 1**)
+-   field (integer) - field to operate on (0 - starred, 1 - published, 2 - unread, 3 - article note **since api level 1**)
 -   data (string) - optional data parameter when setting note field
     (since **api level 1**)
 
