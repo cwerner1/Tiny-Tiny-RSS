@@ -6,7 +6,7 @@ while feeling as close to a real desktop application as possible.
 
 Sponsored by [Dealspotr](http://dealspotr.com/)
 
-<a href="https://tt-rss.org/donate.html"><img src="https://tt-rss.org/images/btn_donate_SM.gif"></a>
+<a href="https://tt-rss.org/donate.html"><img src="https://tt-rss.org/images/btn_donate_SM.gif"></a> / <a href="http://www.amazon.com/gp/registry/wishlist/1EEXIVLAAB4WG/ref=topnav_lists_1">My Kindle wishlist</a>.
 
 **[READ THE FAQ BEFORE ASKING QUESTIONS](FAQ)**
 
