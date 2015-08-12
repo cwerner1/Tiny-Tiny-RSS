@@ -15,7 +15,7 @@ are actually very common and should be available in any reasonable Linux distro)
 
 Plugins may have additional dependencies i.e. several bundled plugins depend on CURL.
 
-Some safe\_mode-related restrictions may stop parts of tt-rss from
+Some <code>safe\_mode</code>-related restrictions may stop parts of tt-rss from
 functioning. This is usually only a problem for (unsupported) shared
 hosting configurations.
 
