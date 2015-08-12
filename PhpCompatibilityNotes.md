@@ -13,6 +13,8 @@ are actually very common and should be available in any reasonable Linux distro)
 -   GD (for OTP QR code generation, otherwise not needed)
 -   PostgreSQL or MySQL depending on the database server used
 
+Plugins may have additional dependencies i.e. several bundled plugins depend on CURL.
+
 Some safe\_mode-related restrictions may stop parts of tt-rss from
 functioning. This is usually only a problem for (unsupported) shared
 hosting configurations.
