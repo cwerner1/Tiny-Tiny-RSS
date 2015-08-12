@@ -103,13 +103,6 @@ Because the articles are still in the feed and get imported again.
 
 http://tt-rss.org/forum/viewtopic.php?f=1&t=2020&p=10635\#p10635
 
-### Loading stops at 50%, browser debug console shows “error loading root children”.
-
-Try deleting everything from <code>ttrss\_counters\_cache</code> and
-<code>ttrss\_cat\_counters\_cache</code> tables.
-
-E.g. <code>DELETE FROM ttrss\_counters\_cache</code>
-
 ### Using Firefox, “OPML Import window” always visible in Preferences
 
 Apparently it’s some addon or a browser setting problem, using clean
