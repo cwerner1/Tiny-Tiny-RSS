@@ -17,7 +17,5 @@ Some safe\_mode-related restrictions may stop parts of tt-rss from
 functioning. This is usually only a problem for (unsupported) shared
 hosting configurations.
 
-I’m using whatever Debian stable is shipping which (as of early 2015) is
-php 5.4.36. If you decide to use bleeding edge php, especially beta
-versions, and run into issues, most likely I won’t be able to help you.
--fox
+I’m using whatever Debian stable is shipping. If you decide to use bleeding edge php, especially beta
+versions, and run into issues, most likely I won’t be able to help you. -fox
