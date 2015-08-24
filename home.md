@@ -62,7 +62,7 @@ Additionally, tt-rss requires:
 -   PHP version **5.4** or newer ([detailed PHP requirements](PhpCompatibilityNotes))
 -   [PostgreSQL](http://www.postgresql.org) (**9.1** or newer) or
     [MySQL](http://www.mysql.com) (**InnoDB is required**, MyISAM will
-    not work).
+    not work). (as of 2015.08.24 tt-rss is incompatible with mysql 5.7)
 
 You can use either of the databases, but PostgreSQL should run tt-rss
 faster.
