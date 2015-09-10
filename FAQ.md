@@ -1,6 +1,10 @@
 Frequently Asked Questions
 ==========================
 
+### I can't post issues on the tracker
+
+This is working as intended, use the forums.
+
 ### I’m on a shared hosting, and…
 
 ### I’m using some third-party package of tt-rss and/or a third party hosted service
