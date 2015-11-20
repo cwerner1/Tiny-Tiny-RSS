@@ -114,6 +114,16 @@ profile helps.
 
 See also: \#649
 
+### I'm having problems with tt-rss following HTTP redirects properly
+
+This is a PHP/CURL problem. If you have open_basedir restrictions enabled, it forbids CURL from following
+HTTP redirects altogether. Why? Ask PHP developers. Previously (before 4c467026), tt-rss used a very ugly 
+hack to manually resolve 30x URLs if open_basedir was enabled, this is now removed.
+
+So, it's either disabling open_basedir, disabling CURL, or living without HTTP redirects, the choice is yours.
+
+Note that several tt-rss plugins depend on CURL so turning it off will effectively prevent them from working. Base functionality will not be affected.
+
 ### Embedded video doesn’t work properly in articles
 
 What you’re looking for is [videoframes
