@@ -1,4 +1,4 @@
-# How to contribute the right way or: how I learned to post merge requests without crying myself to sleep
+# Contributing code the right way or: how I learned to post merge requests without crying myself to sleep
 
 1. Post your brilliant idea on the forums, ask to be given developer privileges. Preferably post diffs if you got them. Don't forget to mention your gitlab username.
 2. When you have developer privileges you can make branches, check them out, work on them locally, push them back and post merge requests.
