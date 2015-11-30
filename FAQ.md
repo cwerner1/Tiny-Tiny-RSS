@@ -5,6 +5,10 @@ Frequently Asked Questions
 
 This is working as intended, use the forums.
 
+### But I want to fix stuff and post merge requests!
+
+[Here's the relevant wiki page](HowToContribute)
+
 ### I’m on a shared hosting, and…
 
 ### I’m using some third-party package of tt-rss and/or a third party hosted service
