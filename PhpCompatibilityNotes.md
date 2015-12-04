@@ -1,7 +1,7 @@
 Detailed PHP requirements
 =========================
 
-You need PHP 5.4 compiled with (at least) the following modules (those
+You need PHP 5.4 (or newer) compiled with (at least) the following modules (those
 are actually very common and should be available in any reasonable Linux distro):
 
 -   JSON
