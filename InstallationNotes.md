@@ -13,7 +13,7 @@ and a database name. If you don’t have a database already created, you
 need to do so before installing. Tiny Tiny RSS can coexist with other
 applications in a shared database, creating a dedicated one is not
 necessary.
-3. Your http server should be running PHP version 5.3 or later. Having
+3. Your http server should be running PHP version 5.4 or later. Having
 an accelerator like php-apc is highly recommended. See also: [PhpCompatibilityNotes](PhpCompatibilityNotes).
 4. The manual assumes you have basic knowledge of Git SCM.
 
