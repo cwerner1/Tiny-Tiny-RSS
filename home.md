@@ -64,7 +64,7 @@ Additionally, tt-rss requires:
     [MySQL](http://www.mysql.com) (**InnoDB is required**, MyISAM will
     not work). (WARNING: as of 2015.08.24 using mysql 5.7 with tt-rss may cause problems)
 
-You can use either database, but PostgreSQL should run tt-rss faster.
+You can use either database, PostgreSQL however should generally run tt-rss faster.
 
 Download
 ========
