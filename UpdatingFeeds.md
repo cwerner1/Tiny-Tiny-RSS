@@ -55,15 +55,13 @@ going to work. If you see HTTP headers being displayed when you run
 
 Full example (see man 5 crontab for more information on the syntax):
 
-    */30 * * * * /usr/bin/php /home/user/public_html/tt-rss/update.php --feeds --quiet
+    */30 * * * * /usr/bin/php /path/to/tt-rss/update.php --feeds --quiet
 
 Notes:
 
 -   <code>/usr/bin/php</code> should be replaced with the correct path
     to PHP CLI binary on your system. If you are not sure which binary
     or what path to use, ask your hosting provider.
--   <code>/home/user/public\_html/tt-rss</code> stands for the directory
-    where you installed Tiny Tiny RSS.
 -   Try the command using shell if possible to check if it works before
     setting up the cronjob.
 
