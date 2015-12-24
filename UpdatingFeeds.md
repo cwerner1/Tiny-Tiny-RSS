@@ -22,17 +22,27 @@ recommended, but not required, to run the daemon under your website user
 id (usually www-data, apache or something like that) to prevent file
 ownership issues.
 
-Run: <code>php ./update.php —daemon</code> (single process) or <code>php
-./update\_daemon2.php</code> (multi-process)
+Run: <code>php ./update.php —daemon</code> (single process) or <code>php ./update\_daemon2.php</code> (multi-process)
 
-The script doesn’t daemonize (e.g. detach from the terminal). You can
-force it into background using external utility like start-stop-daemon
-in Debian. Alternatively, you can run it under screen.
+The script doesn’t daemonize (e.g. detach from the terminal).
 
-Forking update daemon **requires** <code>PHP\_EXECUTABLE</code> being
-configured correctly in <code>config.php</code> and pointing to PHP CLI
-interpreter on your system, otherwise it won’t be able to run update
-tasks.
+### Running under systemd
+
+You can setup the daemon as a simple systemd service like this:
+
+    [Unit]
+    Description=ttrss_backend
+    After=network.target
+
+    [Service]
+    User=www-data
+    ExecStart=/path/to/tt-rss/update_daemon2.php
+
+    [Install]
+    WantedBy=multi-user.target
+
+Use <code>journalctl -u ttrss_backend</code> to look through daemon console
+output.
 
 Periodical updating from crontab, using update script (update.php —feeds)
 -------------------------------------------------------------------------
