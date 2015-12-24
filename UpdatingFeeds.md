@@ -32,7 +32,7 @@ You can setup the daemon as a simple systemd service like this:
 
     [Unit]
     Description=ttrss_backend
-    After=network.target
+    After=network.target mysqld.service postgresql.service
 
     [Service]
     User=www-data
