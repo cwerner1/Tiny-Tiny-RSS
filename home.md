@@ -40,6 +40,8 @@ Get in touch
 
 Join [community forums](http://tt-rss.org/forum) if you have any questions, comments or bug reports.
 
+If you're interested in contributing code, check [this page](HowToContribute).
+
 Requirements
 ============
 
